@@ -6,7 +6,7 @@ $products = [
     "late"=>250,
     "hot chocolate"=>350,
     "nuts"=>250,
-    "candy"=>150,
+    "candy"=>125,
     "water"=>50
     ];
 
