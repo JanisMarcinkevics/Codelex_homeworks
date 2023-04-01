@@ -7,11 +7,11 @@ $numbers = [
     1456, 2165, 1457, 2456
 ];
 
-//todo echo "Original numeric array: ";
+// echo "Original numeric array: ";
 
 echo implode(',', $numbers).PHP_EOL;
 
-//todo echo "Sorted numeric array: ";
+// echo "Sorted numeric array: ";
 
 sort($numbers);
 
@@ -26,11 +26,11 @@ $words = [
     "C++"
 ];
 
-//todo echo "Original string array: ";
+// echo "Original string array: ";
 
 echo implode(',', $words).PHP_EOL;
 
-//todo echo "Sorted string array: ";
+// echo "Sorted string array: ";
 
 sort($words, SORT_STRING);
 
