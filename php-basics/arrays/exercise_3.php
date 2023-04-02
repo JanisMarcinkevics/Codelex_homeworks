@@ -6,9 +6,9 @@ $numbers = [
     1456, 2265, 1457, 2456
 ];
 
-//todo check if an array contains a value user entered
+//check if an array contains a value user entered
 
 $valueToCheck = readline("Enter the value to search for: ");
 
-echo  in_array($valueToCheck, $numbers)? "$valueToCheck is present un the array\n" : "There is no such value in the array.\n";
+echo in_array($valueToCheck, $numbers) ? "$valueToCheck is present un the array\n" : "There is no such value in the array.\n";
 

@@ -9,13 +9,13 @@ $numbers = [
 
 // echo "Original numeric array: ";
 
-echo implode(',', $numbers).PHP_EOL;
+echo implode(',', $numbers) . PHP_EOL;
 
 // echo "Sorted numeric array: ";
 
 sort($numbers);
 
-echo implode(',', $numbers).PHP_EOL;
+echo implode(',', $numbers) . PHP_EOL;
 
 $words = [
     "Java",
@@ -28,10 +28,10 @@ $words = [
 
 // echo "Original string array: ";
 
-echo implode(',', $words).PHP_EOL;
+echo implode(',', $words) . PHP_EOL;
 
 // echo "Sorted string array: ";
 
 sort($words, SORT_STRING);
 
-echo implode(',', $words).PHP_EOL;
+echo implode(',', $words) . PHP_EOL;

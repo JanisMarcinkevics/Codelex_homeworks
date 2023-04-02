@@ -21,5 +21,5 @@ $copy = $originArray;
 
 $originArray[9] = -7;
 
-echo implode(',',$originArray).PHP_EOL;
-echo implode(',',$copy).PHP_EOL;
+echo implode(',', $originArray) . PHP_EOL;
+echo implode(',', $copy) . PHP_EOL;
