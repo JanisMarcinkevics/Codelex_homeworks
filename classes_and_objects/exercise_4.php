@@ -12,8 +12,10 @@ class Movie
         $this->rating = $rating;
     }
 
-    public function getPG($movies): array {
-        return array_filter($movies, function($movie) {
+    public function getPG(array $movies): array
+    {
+        return array_filter($movies, function($movie)
+        {
             return $movie->rating === 'PG';
         });
     }
