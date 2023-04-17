@@ -1,8 +1,8 @@
 <?php
 
+require 'api_key.php';
 $city = readline("Enter city name: ");
 $countryCode = readline("Enter country code: ");
-$apiKey = "a021c762d4f72ec8f4e799bf62f9b676";
 $url = "http://api.openweathermap.org/data/2.5/weather?q=$city,$countryCode&appid=$apiKey&units=metric";
 
 
