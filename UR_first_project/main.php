@@ -8,7 +8,8 @@ use GuzzleHttp\Client;
 $validData = false;
 while ($validData == false) {
     $idNumber = readline("Please enter VAT ID number of the company you are curious about: ");
-    $url = "https://data.gov.lv/dati/lv/api/3/action/datastore_search?q=$idNumber&resource_id=25e80bf3-f107-4ab4-89ef-251b5b9374e9";
+    $url = "https://data.gov.lv/dati/lv/api/3/action/datastore_search?q=
+    $idNumber&resource_id=25e80bf3-f107-4ab4-89ef-251b5b9374e9";
 
     $client = new Client();
     $response = $client->request('GET', $url);
