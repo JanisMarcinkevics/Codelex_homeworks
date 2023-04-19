@@ -16,4 +16,4 @@ $client = new Client();
 $data = simplexml_load_string($response->getBody()->getContents());
 var_dump($data->Currencies);
 
-
+//test
